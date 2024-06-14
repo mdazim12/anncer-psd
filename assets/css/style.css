@@ -91,7 +91,7 @@ nav{
 /* Hero section css */
 
 .hero_section{
-    background-image: url('/assets/img/shutterstock_1415888657.png');
+    background-image: url('../img/shutterstock_1415888657.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -213,7 +213,7 @@ nav{
 
  /* services section css */
  .services{
-    background-image: url('/assets/img/91.png');
+    background-image: url('../img/91.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
