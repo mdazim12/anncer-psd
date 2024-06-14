@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.topbar{
+    background-color: #020e28;
+    display: flex;
+    padding: 10px 0px;
+}
+.top_bar_number{
+    float: right;
+    padding: 0px 20px;
+    border-right: 1px solid #ffff;
+
+}
+.top_bar_numbere_link,.top_bar_mail_link{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+.top_bar_call_icon,.top_bar_mail_icon{
+    color: blue;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+
+.top_bar_mail{
+    float: left;
+    padding: 0px 20px;
+}
+
+
+.main_header{
+    top: 0px;
+    display: sticky;
+}
+
+.logo_link{
+    width: 100px;
+}
+nav{
+   padding: 20px;
+ 
+}
+.top_menu{
+    justify-content: center;
+}
+
+.nav-item{
+    margin: 10px;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: black;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    text-transform: uppercase;
+    border-bottom: 1px soild #fdbe00;
+}
+   
+
+
+.nav_btn{
+    background: rgb(251,190,2);
+    background: linear-gradient(90deg, rgba(251,190,2,1) 0%, rgba(0,125,255,1) 100%);
+    color: #ffff!important;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.nav-item:hover{
+    color: #fdbe00;
+}  
+
+.nav-item:hover{
+    color: #fdbe00!important;
+    border-bottom: 2px solid#fdbe00;
+   
+}
+
+/* Hero section css */
+
+.hero_section{
+    background-image: url('/assets/img/shutterstock_1415888657.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 50px 0px;
+    position: relative;
+ 
+}
+
+.hero_content{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+.hero_title h2{
+    font-size: 64px;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.hero_des   {
+    font-size: 30px;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.hero_images img{
+    width: 70%;
+}
+
+.hero_images {
+    position: relative; 
+    text-align:center;
+  }
+  
+  .hero_sec_img {
+    position: absolute;
+    left: 0; 
+    opacity: 0.9; 
+  }
+
+
+  /* Feature section css */
+  .feature{
+    margin: 100px 0px;
+  }
+
+  .feature_all_box{
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    width: 70%;
+    margin: auto;
+    display: block;
+  }
+  .feature_one{
+    display: flex;
+    border-right: 1px soild red;
+  }
+
+  .feature_img{
+    width: 30%;
+  }
+  
+  .feature_img img{
+    width: 70%;
+    text-align: center;
+  }
+
+  .feature_title{
+    width: 70%;
+  }
+
+  .feature_title h4{
+    font-family: 30px;
+    font-weight: bold;
+  }
+
+  .feature_des p{
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .feature_box{
+    border-right: 2px solid rgba(0,0,0,0.1); 
+    padding: 20px; 
+    background-color: #fff; 
+ }
+
+
+ /* About section css */
+
+ 
+ .about_images img{
+    text-align: center;
+ }
+
+ .about_title h2{
+    font-size: 35px;
+    color: #004377;
+    text-transform: uppercase;
+    font-weight: 700;
+ }
+ .about_title_highlight{
+    color: #fdbe00;
+    border-bottom: 2px solid #007dff;  
+    background-color: #fff; 
+ }
+
+ .about_des p{
+    font-size: 16px;    
+ }
+ .about_images {
+    text-align: center;
+}
+.about_info{
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+
+ /* services section css */
+ .services{
+    background-image: url('/assets/img/91.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 50px 0px;
+ }
+ .services_icon img{
+    padding: 10px 0px;
+ }
+.services_title h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+.services_des p{
+    color: #fff;
+    font-family: 16px;
+}
+
+.des_link{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.services_sub_highlits{
+    border-bottom: 2px solid #007dff;
+    
+}
+.service_title_highlits{
+    color: #fdbe00;
+}
+
+.services_one{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+}
+
+/*Brand Section*/
+.barnd{
+    padding: 50px 0px;
+}
+.brand_title h2{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #004377;
+}
+.brand_sub_highlits{
+    border-bottom: 2px solid #007dff;
+}
+.brand_box_title h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.brand_box_des p{
+    font-family: 14px;
+}
+.brand_all_box{
+    padding: 50px 0px;
+}
+
+.brand_box_items {
+    padding: 20px 0px;
+}
+
+.brand_images{
+    width: 90%;
+    text-align: center;
+}
+
+/*Call to Action Section*/
+.call_to_action{
+    background-image: url('/assets/img/324539.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 50px 0px;
+}
+
+
+.ctn_content{
+    background: #141d32;
+    padding: 20px;
+    position: absolute;
+    width: 50%;
+    left: 60%;
+    margin-top: -200px;
+    transform: translate(-50%, -50%);
+}
+
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.ctn_des{
+    color: #fff;
+}
+.ctn_title{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.ctn_btn{
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/*Footer*/
+footer{
+    background: #020e28;
+    padding-top: 50px;
+}
+
+.footer_logo a img{
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.footer_logo {
+    text-align: center;
+}
+.footer_title{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    padding:15px 0px;
+}
+.footer_des{
+    font-size: 14px;
+    color: #ffff;
+
+}
+.footer_link i{
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+}
+.footer_title_sec{
+    font-size: 20px;
+    color: #fff;
+    padding:15px 0px;
+}
+.foo_call_icon{
+    color: #fdbe00;
+}
+.top_bar_numbere_link i{
+    padding-right: 10px;
+}
+.footer_link li{
+    list-style: none;
+    line-height: 25px;
+}
+.footer_link a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 0px;
+}
+
+.foo_btn{
+    width: 70%;
+}
+.copy_right p{
+    background: #000818;
+    font-size: 12px;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.footer_sec_box,.footer_frist_box{
+    padding: 20px 0px;
+}

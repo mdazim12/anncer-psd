@@ -1,0 +1,65 @@
+
+  
+  @media only screen and (max-width: 600px) {
+    /* For mobile: */
+    .top_bar_number, .top_bar_number{
+      float: none!important;
+      
+    }
+
+    .top_bar_number, .top_bar_mail{
+      border: none!important;
+      text-align: center;
+    }
+    
+    
+    .top_bar_mail{
+      float: none!important;
+    }
+    
+
+    .hero_title h2{
+      text-align: center;
+      margin: auto;
+      font-size: 30px;
+    }
+
+  .hero_des{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .hero_images {
+    width: 100%;
+    padding: 50px 0px;
+  }
+
+  .about_content{
+    text-align: center!important;
+    padding: 50px 0px;
+  }
+
+  .brand_images{
+    width: 70%;
+  }
+
+  .ctn_content{
+    position: relative!important;
+    
+    width: 100%!important;
+    left:0%!important;
+    margin-top:0px!important;
+    transform:none!important;
+  }
+
+  .cta_image img{
+    width: 100%!important;
+}
+
+
+
+
+
+  }
+  
+  
